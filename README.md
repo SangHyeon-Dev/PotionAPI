@@ -1,6 +1,6 @@
 # PotionAPI
 
-APIs that make it easy to use Effect and OnScreenTextureAbimation Packets
+- APIs that make it easy to use Effect and OnScreenTextureAbimation Packets
 
 ex. 
 new OnScreenTextureAnimationPacket()->effectId = 16;
