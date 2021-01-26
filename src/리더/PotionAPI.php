@@ -31,6 +31,6 @@ class PotionAPI extends PluginBase implements Listener {
         $Packet = new OnScreenTextureAnimationPacket();
         $Packet->effectId = $Type;
         $player->dataPacket($Packet);
-        $player->addEffect(new EffectInstance(Effect::getEffect($Type),$Unit * $Time, $Power, true));
+        $player->addEffect(new EffectInstance(Effect::getEffect($Type),$Unit * $Time, $Power, false));
     }
 }
